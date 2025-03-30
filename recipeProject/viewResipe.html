@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h3>Build a Recipe Sharing Web Application</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <img src="data:image/jpeg;base64,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"
+                    alt="" width="30px" height="30px">
+            </li>
+            <li><a href="/RecipeEvaluation//recipeProject/index.html">Home</a></li>
+            <li><a href="/RecipeEvaluation//recipeProject/Recipe.html">Add Recipe</a></li>
+            <li><a href="/RecipeEvaluation//recipeProject/viewResipe.html">View Recipes</a></li>
+        </ul>
+    </nav>
+  
+
+    <div class="view_page">
+        <div class="resipe_img">
+            <img src="" alt="">
+        </div>
+        <div class="resipe_img">
+            <img src="" alt="">
+        </div>
+        <div class="resipe_img">
+            <img src="" alt="">
+        </div>
+        <div class="resipe_img">
+            <img src="" alt="">
+        </div>
+        <div class="resipe_img">
+            <img src="" alt="">
+        </div>
+        <div class="resipe_img">
+            <img src="" alt="">
+        </div>
+        <div class="resipe_img">
+            <img src="" alt="">
+        </div>
+        <div class="resipe_img">
+            <img src="" alt="">
+        </div>
+        <div class="resipe_img">
+            <img src="" alt="">
+        </div>
+        <div class="resipe_img">
+            <img src="" alt="">
+        </div>
+        <div class="resipe_img">
+            <img src="" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <img src="data:image/jpeg;base64,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"
+            alt="" >
+            <ul style="display: block; margin-left: 140px;" >
+             
+                <li style="margin-top: 20px;" ><a style="color: wheat; margin-top: 20px;" href="/RecipeEvaluation//recipeProject/index.html">Home</a></li>
+                <li style="margin-top: 20px;" ><a style="color: wheat; margin-top: 20px;" href="/RecipeEvaluation//recipeProject/Recipe.html">Add Recipe</a></li>
+                <li style="margin-top: 20px;" ><a style="color: wheat;" href="/RecipeEvaluation//recipeProject/viewResipe.html">View Recipes</a></li>
+            </ul>
+
+            <ul style="color: white; display: block; margin-left: 150px;">
+         <li  style="margin-top: 20px;"> phone : 00001111</li>
+          <li style="margin-top: 20px;">   Email : recipe@123</li>
+            </ul>
+    </footer>
+    <div class="lastfoter">
+        <p>this is resipe website @2025 </p>
+    </div>
+</body>
+
+</html>
